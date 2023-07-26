@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e091b10cb31a045bf01cdeabc1a8dc, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: 
+  impact: {fileID: 6278156147146804044, guid: 291ce0cfce9077448b7d523b8680e68d, type: 3}
+  type: 0
+  Name: 
+  ModelPrefab: {fileID: 4303608686851237726, guid: 312b87d20a560cd428161532ddb8bebc,
+    type: 3}
+  SpawnPoint: {x: 0.6, y: -0.7, z: 1}
+  SpawnRotation: {x: 1.1, y: 176.9, z: -90}
+  shotsPerShot: 5
+  recoilComponent: {fileID: 0}
+  damageConfigSO: {fileID: 11400000, guid: 1283c91bfeb97294f8576bf9204e8e8a, type: 2}
+  shootConfigSO: {fileID: 11400000, guid: 71047444e4294644bbd9b11d0b43f2a5, type: 2}
+  trailConfigSO: {fileID: 11400000, guid: 95ca0cbc022a161469454f4412c40fa8, type: 2}
+  ammoConfigSO: {fileID: 11400000, guid: f30228181eedfcf4684095647f95fbc4, type: 2}
+  audioConfigSO: {fileID: 11400000, guid: 1a2a578a654da6c48a2d944f2e7617ae, type: 2}
